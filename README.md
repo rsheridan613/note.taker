@@ -8,6 +8,6 @@ Enter your note title and text. Hit the save icon in the top left to save it for
 
 ## Visuals
 
-[!Screenshot of site](./assets/note.taker.screenshot.png)
+![Screenshot of site](./assets/note.taker.screenshot.png)
 
 [Deployed site](https://whispering-caverns-22483.herokuapp.com/)
