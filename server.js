@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const fs = require("fs");
 
-const data = require("./db/db.json");
+const notes = require("./db/db.json");
 const id = require("./helper/id");
 
 const PORT = process.env.PORT || 3001;
@@ -52,5 +52,7 @@ app.post("/notes", (req, res) => {
     });
   }
 });
+
+// app.delete("/api/notes/:id", () => {});
 
 app.listen(PORT, () => console.log(`App listening at ${PORT}`));
